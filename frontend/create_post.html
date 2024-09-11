@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Post</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Create a New Post</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="create_group.html">Create Group</a></li>
+                <li><a href="create_post.html">Create Post</a></li>
+                <li><a href="daily_questions.html">Daily Questions</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <form id="createPostForm">
+            <textarea id="content" placeholder="Write your post here..." required></textarea>
+            <input type="text" id="image_url" placeholder="Image URL">
+            <input type="number" id="user_id" placeholder="Your User ID" required>
+            <input type="number" id="group_id" placeholder="Group ID" required>
+            <button type="submit">Create Post</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>© 2024 Fitness App. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register User</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Register User</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="create_group.html">Create Group</a></li>
+                <li><a href="create_post.html">Create Post</a></li>
+                <li><a href="daily_questions.html">Daily Questions</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <form id="registerForm">
+            <input type="text" id="name" placeholder="Name" required>
+            <input type="number" id="phone_number" placeholder="Phone Number" required>
+            <input type="text" id="profile_picture" placeholder="Profile Picture URL">
+            <input type="date" id="working_out_from" placeholder="Working Out From" required>
+            <select id="body_goal" required>
+                <option value="bulk">Bulk</option>
+                <option value="cut">Cut</option>
+                <option value="athletic">Athletic</option>
+            </select>
+            <button type="submit">Register</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>© 2024 Fitness App. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

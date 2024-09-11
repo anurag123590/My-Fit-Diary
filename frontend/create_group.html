@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Group</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Create a New Group</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="create_group.html">Create Group</a></li>
+                <li><a href="create_post.html">Create Post</a></li>
+                <li><a href="daily_questions.html">Daily Questions</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <form id="createGroupForm">
+            <input type="text" id="group_name" placeholder="Group Name" required>
+            <textarea id="description" placeholder="Group Description" required></textarea>
+            <input type="text" id="members" placeholder="Member Phone Numbers (comma-separated)" required>
+            <button type="submit">Create Group</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>© 2024 Fitness App. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

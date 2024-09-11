@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f4f4f9;
+}
+
+header {
+    background: #ff6b6b;
+    color: white;
+    padding: 40px 0; /* Increased padding for prominence */
+    text-align: center;
+}
+
+header .logo {
+    margin-bottom: 20px; /* Space between title and navigation */
+}
+
+header .logo h1 {
+    font-size: 3rem; /* Larger font size for title */
+    margin-bottom: 10px;
+}
+
+header .logo h2 {
+    font-size: 1.5rem; /* Slightly smaller font size for tag */
+    font-weight: 300; /* Lighter weight for tag */
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 10px; /* Reduced margin to fit better */
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem; /* Smaller font size for nav links */
+    transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+    color: #ffecb3; /* Light color for hover effect */
+    border-bottom: 2px solid #ffecb3; /* Match hover color */
+}
+
+.header-content {
+    margin-top: 20px;
+}
+
+.header-content h2 {
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+}
+
+.header-content p {
+    font-size: 1.1rem;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.intro {
+    margin-bottom: 20px;
+}
+
+.diagrams {
+    display: block; /* Ensure the section itself is a block element */
+    margin-top: 20px;
+}
+
+.diagram {
+    text-align: center;
+    margin: 20px auto; /* Center the diagram and add space around */
+    max-width: 300px; /* Set max width for diagrams */
+}
+
+.diagram img {
+    width: 100%; /* Responsive image width */
+    max-width: 200px; /* Max width for images */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.diagram img:hover {
+    transform: scale(1.05);
+}
+
+.diagram h3 {
+    margin-top: 10px;
+    font-size: 1rem;
+}
+
+footer {
+    background-color: #ff6b6b;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
